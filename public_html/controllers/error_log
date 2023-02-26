@@ -1,0 +1,273 @@
+[09-Feb-2023 19:10:58 America/New_York] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/krokos/public_html/db.php on line 3
+[09-Feb-2023 19:11:37 America/New_York] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/krokos/public_html/db.php on line 3
+[09-Feb-2023 19:53:36 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 14
+[09-Feb-2023 19:54:33 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home/krokos/public_html/controllers/loginController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 13
+[09-Feb-2023 19:55:01 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 14
+[09-Feb-2023 19:56:57 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 16
+[09-Feb-2023 19:59:28 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 22
+[09-Feb-2023 20:00:23 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 22
+[09-Feb-2023 20:01:52 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[09-Feb-2023 20:02:06 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 22
+[09-Feb-2023 20:02:06 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[09-Feb-2023 20:02:19 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 22
+[09-Feb-2023 20:02:19 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[09-Feb-2023 20:02:31 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 22
+[09-Feb-2023 20:02:31 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[09-Feb-2023 20:02:47 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 22
+[09-Feb-2023 20:02:47 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[09-Feb-2023 21:22:08 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[09-Feb-2023 21:42:43 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 22
+[09-Feb-2023 21:42:43 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[09-Feb-2023 21:43:01 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 22
+[09-Feb-2023 21:43:01 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[09-Feb-2023 21:43:11 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 22
+[09-Feb-2023 21:43:11 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[10-Feb-2023 07:16:50 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[10-Feb-2023 09:19:37 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[10-Feb-2023 10:07:20 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 22
+[10-Feb-2023 10:07:20 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[10-Feb-2023 12:50:27 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[10-Feb-2023 12:50:27 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[10-Feb-2023 15:53:30 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[16-Feb-2023 00:38:37 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[16-Feb-2023 13:04:12 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 22
+[16-Feb-2023 13:04:12 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[16-Feb-2023 13:04:54 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 22
+[16-Feb-2023 13:04:54 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[16-Feb-2023 13:05:00 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:11) in /home/krokos/public_html/controllers/loginController.php on line 22
+[16-Feb-2023 13:05:00 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[16-Feb-2023 13:05:31 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:11) in /home/krokos/public_html/controllers/loginController.php on line 22
+[16-Feb-2023 13:05:31 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[16-Feb-2023 13:05:35 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:11) in /home/krokos/public_html/controllers/loginController.php on line 22
+[16-Feb-2023 13:05:35 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[16-Feb-2023 13:05:39 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:11) in /home/krokos/public_html/controllers/loginController.php on line 22
+[16-Feb-2023 13:05:39 America/New_York] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/krokos/public_html/controllers/loginController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/controllers/loginController.php on line 24
+[16-Feb-2023 13:06:15 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 21
+[16-Feb-2023 13:06:46 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 21
+[16-Feb-2023 13:07:39 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 15
+[16-Feb-2023 13:10:08 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 15
+[16-Feb-2023 13:10:24 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 15
+[16-Feb-2023 13:12:39 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 15
+[16-Feb-2023 13:20:10 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/controllers/loginController.php:7) in /home/krokos/public_html/controllers/loginController.php on line 15
+[19-Feb-2023 14:05:19 America/New_York] PHP Warning:  move_uploaded_file(uploads/gorro-piluso-naranja.png): failed to open stream: No such file or directory in /home/krokos/public_html/controllers/uploadFileController.php on line 43
+[19-Feb-2023 14:05:19 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpQqpF1K' to 'uploads/gorro-piluso-naranja.png' in /home/krokos/public_html/controllers/uploadFileController.php on line 43
+[19-Feb-2023 14:05:39 America/New_York] PHP Warning:  move_uploaded_file(uploads/gorro-piluso-gris.png): failed to open stream: No such file or directory in /home/krokos/public_html/controllers/uploadFileController.php on line 43
+[19-Feb-2023 14:05:39 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpT1JNKT' to 'uploads/gorro-piluso-gris.png' in /home/krokos/public_html/controllers/uploadFileController.php on line 43
+[19-Feb-2023 14:12:55 America/New_York] PHP Warning:  move_uploaded_file(uploads/460x720.png): failed to open stream: No such file or directory in /home/krokos/public_html/controllers/uploadFileController.php on line 43
+[19-Feb-2023 14:12:55 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpswIqKC' to 'uploads/460x720.png' in /home/krokos/public_html/controllers/uploadFileController.php on line 43
+[19-Feb-2023 14:15:00 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/krokos/public_html/controllers/uploadFileController.php on line 9
+[19-Feb-2023 14:15:12 America/New_York] PHP Warning:  move_uploaded_file(uploads/099-2.png): failed to open stream: No such file or directory in /home/krokos/public_html/controllers/uploadFileController.php on line 43
+[19-Feb-2023 14:15:12 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php04zhiv' to 'uploads/099-2.png' in /home/krokos/public_html/controllers/uploadFileController.php on line 43
+[19-Feb-2023 14:15:45 America/New_York] PHP Warning:  move_uploaded_file(uploads/099-2.png): failed to open stream: No such file or directory in /home/krokos/public_html/controllers/uploadFileController.php on line 43
+[19-Feb-2023 14:15:45 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php5n4leH' to 'uploads/099-2.png' in /home/krokos/public_html/controllers/uploadFileController.php on line 43
+[19-Feb-2023 14:15:57 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/krokos/public_html/controllers/uploadFileController.php on line 9
+[19-Feb-2023 14:16:05 America/New_York] PHP Warning:  move_uploaded_file(uploads/460x720.png): failed to open stream: No such file or directory in /home/krokos/public_html/controllers/uploadFileController.php on line 43
+[19-Feb-2023 14:16:05 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpsV5PPl' to 'uploads/460x720.png' in /home/krokos/public_html/controllers/uploadFileController.php on line 43
+[19-Feb-2023 18:48:25 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/krokos/public_html/controllers/addProductController.php on line 37
+[19-Feb-2023 18:48:59 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/krokos/public_html/controllers/addProductController.php on line 37
+[19-Feb-2023 18:49:45 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/krokos/public_html/controllers/addProductController.php on line 37
+[19-Feb-2023 18:50:14 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/krokos/public_html/controllers/addProductController.php on line 38
+[19-Feb-2023 18:50:22 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/krokos/public_html/controllers/addProductController.php on line 38
+[19-Feb-2023 18:52:32 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/krokos/public_html/controllers/addProductController.php on line 38
+[19-Feb-2023 18:53:01 America/New_York] PHP Warning:  Illegal string offset 'name' in /home/krokos/public_html/controllers/addProductController.php on line 15
+[19-Feb-2023 18:53:01 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/krokos/public_html/controllers/addProductController.php on line 38
+[19-Feb-2023 18:53:27 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/krokos/public_html/controllers/addProductController.php on line 38
+[19-Feb-2023 18:56:51 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/krokos/public_html/controllers/addProductController.php on line 38
+[19-Feb-2023 18:57:26 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/krokos/public_html/controllers/addProductController.php on line 37
+[19-Feb-2023 18:59:37 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/krokos/public_html/controllers/addProductController.php on line 38
+[24-Feb-2023 13:56:40 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 13:56:42 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:36:49 America/New_York] PHP Warning:  Illegal string offset 'id_product' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:36:49 America/New_York] PHP Warning:  Illegal string offset 'id_product' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:36:49 America/New_York] PHP Warning:  Illegal string offset 'id_product' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:37:32 America/New_York] PHP Warning:  Illegal string offset 'id_product' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:37:32 America/New_York] PHP Warning:  Illegal string offset 'id_product' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:37:32 America/New_York] PHP Warning:  Illegal string offset 'id_product' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:37:36 America/New_York] PHP Warning:  Illegal string offset 'code' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:37:36 America/New_York] PHP Warning:  Illegal string offset 'code' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:37:36 America/New_York] PHP Warning:  Illegal string offset 'code' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:37:38 America/New_York] PHP Warning:  Illegal string offset 'code' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:37:38 America/New_York] PHP Warning:  Illegal string offset 'code' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:37:38 America/New_York] PHP Warning:  Illegal string offset 'code' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:41:55 America/New_York] PHP Warning:  Illegal string offset 'id_product' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:41:55 America/New_York] PHP Warning:  Illegal string offset 'id_product' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:41:55 America/New_York] PHP Warning:  Illegal string offset 'id_product' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:42:08 America/New_York] PHP Warning:  Illegal string offset 'code' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:42:08 America/New_York] PHP Warning:  Illegal string offset 'code' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:42:08 America/New_York] PHP Warning:  Illegal string offset 'code' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:42:10 America/New_York] PHP Warning:  Illegal string offset 'code' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:42:10 America/New_York] PHP Warning:  Illegal string offset 'code' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:42:10 America/New_York] PHP Warning:  Illegal string offset 'code' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:42:38 America/New_York] PHP Warning:  Illegal string offset 'price' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:42:38 America/New_York] PHP Warning:  Illegal string offset 'price' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:42:38 America/New_York] PHP Warning:  Illegal string offset 'price' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:42:41 America/New_York] PHP Warning:  Illegal string offset 'price' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:42:41 America/New_York] PHP Warning:  Illegal string offset 'price' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 14:42:41 America/New_York] PHP Warning:  Illegal string offset 'price' in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 15:29:05 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:29:25 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:31:17 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:31:19 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:31:23 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:32:13 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:42:23 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:43:03 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:43:39 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:44:50 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:44:54 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:52:49 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:53:40 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 20
+[24-Feb-2023 15:54:24 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 15:54:57 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 15:55:56 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 16:01:32 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 19
+[24-Feb-2023 16:02:57 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 19
+[25-Feb-2023 11:12:12 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 19
+[25-Feb-2023 11:15:59 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 19
+[25-Feb-2023 11:15:59 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 63
+[25-Feb-2023 11:15:59 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 70
+[25-Feb-2023 11:16:20 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 70
+[25-Feb-2023 11:19:26 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 70
+[25-Feb-2023 11:31:40 America/New_York] PHP Warning:  mysqli_insert_id() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 58
+[25-Feb-2023 11:31:40 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 73
+[25-Feb-2023 11:31:40 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:31:40 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 73
+[25-Feb-2023 11:31:40 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:31:40 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 73
+[25-Feb-2023 11:31:40 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:31:40 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 73
+[25-Feb-2023 11:31:40 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:31:40 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 78
+[25-Feb-2023 11:34:01 America/New_York] PHP Warning:  mysqli_insert_id() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 58
+[25-Feb-2023 11:34:01 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:34:01 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[25-Feb-2023 11:34:01 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:34:01 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[25-Feb-2023 11:34:01 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:34:01 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[25-Feb-2023 11:34:01 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:34:01 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[25-Feb-2023 11:34:01 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 79
+[25-Feb-2023 11:35:51 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:35:51 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[25-Feb-2023 11:35:51 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:35:51 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[25-Feb-2023 11:35:51 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:35:51 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[25-Feb-2023 11:35:51 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:35:51 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[25-Feb-2023 11:35:51 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 79
+[25-Feb-2023 11:36:26 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:36:26 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[25-Feb-2023 11:36:26 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:36:26 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[25-Feb-2023 11:36:26 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:36:26 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[25-Feb-2023 11:36:26 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 74
+[25-Feb-2023 11:36:26 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[25-Feb-2023 11:36:26 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 79
+[25-Feb-2023 11:37:43 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 79
+[25-Feb-2023 11:58:16 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 79
+[25-Feb-2023 12:34:19 America/New_York] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/krokos/public_html/controllers/orderController.php on line 71
+[25-Feb-2023 12:35:16 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 80
+[25-Feb-2023 15:11:40 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 19
+[25-Feb-2023 15:11:40 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 65
+[25-Feb-2023 15:11:40 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 80
+[25-Feb-2023 16:52:48 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 80
+[26-Feb-2023 11:16:11 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 80
+[26-Feb-2023 13:57:47 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 80
+[26-Feb-2023 14:09:56 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 81
+[26-Feb-2023 14:10:49 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 70
+[26-Feb-2023 14:12:33 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 70
+[26-Feb-2023 14:12:51 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 70
+[26-Feb-2023 14:13:18 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 70
+[26-Feb-2023 14:14:09 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 70
+[26-Feb-2023 14:15:07 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 70
+[26-Feb-2023 14:15:24 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 70
+[26-Feb-2023 14:15:54 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 46
+[26-Feb-2023 14:15:54 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 49
+[26-Feb-2023 14:16:03 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 49
+[26-Feb-2023 14:16:04 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 49
+[26-Feb-2023 14:17:48 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 71
+[26-Feb-2023 14:53:22 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[26-Feb-2023 14:56:37 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[26-Feb-2023 14:57:51 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[26-Feb-2023 14:58:08 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 19
+[26-Feb-2023 14:58:08 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 23
+[26-Feb-2023 14:58:08 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/controllers/orderController.php on line 58
+[26-Feb-2023 14:58:08 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 75
+[26-Feb-2023 14:59:24 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 76
+[26-Feb-2023 15:00:25 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 76
+[26-Feb-2023 15:01:01 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 77
+[26-Feb-2023 15:01:33 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 55
+[26-Feb-2023 15:01:58 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 77
+[26-Feb-2023 15:02:29 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/controllers/orderController.php on line 76

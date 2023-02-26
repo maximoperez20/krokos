@@ -1,0 +1,32 @@
+.titulo{
+  background-color: black;
+  background-image: linear-gradient(to top, black, #1B0044 , black);
+  text-align: center;
+color:gray;
+padding: 195px;
+font-size: 50px;
+   letter-spacing: 7px;
+   font-family: 'Hind Guntur', sans-serif;
+}
+.tit{
+  text-shadow: 3px 2px 5px black;
+}
+
+h2{
+  font-size: 15px;
+  color:gray;
+
+}
+.fa-whatsapp{
+  Position: relative;
+left: 650px;
+bottom: 500px;
+}
+.fa-whatsapp:hover{
+  color:#B4E197;
+}
+
+
+body{
+  margin: 0px !important;
+}
