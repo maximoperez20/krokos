@@ -19,7 +19,6 @@ $totalOrder = 0;
 foreach ($_SESSION["cart_item"] as $producto) {
     $totalOrder = $totalOrder + ($producto['price'] * $producto['quantity']);
 }
-echo $totalOrder . '<br>';
 
 foreach ($cart as $cartItem => $v) {
     array_push($id_products, $cartItem);
@@ -72,7 +71,7 @@ foreach ($_SESSION["cart_item"] as $producto) {
 }
 // Cerramos la conexión
 
-// unset($_SESSION["cart_item"]);
+unset($_SESSION["cart_item"]);
 mysqli_close($conn);
 ?>
 <html lang="en">

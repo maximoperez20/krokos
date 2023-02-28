@@ -605,3 +605,18 @@ Stack trace:
 [25-Feb-2023 16:21:43 America/New_York] PHP Warning:  A non-numeric value encountered in /home/krokos/public_html/admin/orderdetail.php on line 206
 [25-Feb-2023 16:22:03 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/admin/orderdetail.php on line 201
 [25-Feb-2023 16:22:06 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/admin/orderdetail.php on line 201
+[27-Feb-2023 21:17:13 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/admin/editproduct.php on line 13
+[27-Feb-2023 21:17:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/krokos/public_html/admin/editproduct.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/admin/editproduct.php on line 14
+[27-Feb-2023 21:17:18 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/admin/editproduct.php on line 13
+[27-Feb-2023 21:17:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/krokos/public_html/admin/editproduct.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/admin/editproduct.php on line 14
+[27-Feb-2023 21:17:28 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/krokos/public_html/admin/editproduct.php on line 13
+[27-Feb-2023 21:17:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/krokos/public_html/admin/editproduct.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/admin/editproduct.php on line 14

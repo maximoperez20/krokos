@@ -171,8 +171,8 @@ $result = $db_handle->runQuery("SELECT * FROM products");
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                 <form action="https://krokos.com.ar/?action=add&id_product=<?= $register['id_product'] ?>" method="post">
                                     <div class="cart-action">
-                                        <input type="number" class="form-control product-quantity" name="quantity" value="1" style="width: 28%; display: inline-block;" />
-                                        <input class="btn add-to-cart-btn" type="submit" value="Add to Cart" />
+                                        <input type="number" min=1 max=200 class="form-control product-quantity" name="quantity" value="1" style="width: 28%; display: inline-block;" />
+                                        <input class="btn add-to-cart-btn" type="submit" value="Añadir al carro" />
                                     </div>
                                 </form>
                             </div>
@@ -188,7 +188,7 @@ $result = $db_handle->runQuery("SELECT * FROM products");
     <!-- Footer-->
     <footer class="py-5 bg-dark">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p>
+            <p class="m-0 text-center text-white">Kròkos &copy; Your Website 2022</p>
         </div>
     </footer>
     <!-- Bootstrap core JS-->

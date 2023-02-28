@@ -152,3 +152,8 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/krokos/public_html/contacto/cont.php on line 42
+[27-Feb-2023 15:30:13 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/krokos/public_html/contacto/cont.php:34) in /home/krokos/public_html/contacto/cont.php on line 41
+[27-Feb-2023 15:30:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function        die() in /home/krokos/public_html/contacto/cont.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/krokos/public_html/contacto/cont.php on line 42

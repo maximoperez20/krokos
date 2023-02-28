@@ -148,3 +148,9 @@
 [26-Feb-2023 13:46:36 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krokos/public_html/cart/cart.php on line 84
 [26-Feb-2023 13:46:36 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/cart/cart.php on line 88
 [26-Feb-2023 13:46:36 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krokos/public_html/cart/cart.php on line 114
+[26-Feb-2023 16:01:18 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krokos/public_html/cart/cart.php on line 84
+[26-Feb-2023 16:01:18 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/cart/cart.php on line 88
+[26-Feb-2023 16:01:18 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krokos/public_html/cart/cart.php on line 114
+[27-Feb-2023 09:03:31 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krokos/public_html/cart/cart.php on line 84
+[27-Feb-2023 09:03:31 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/krokos/public_html/cart/cart.php on line 88
+[27-Feb-2023 09:03:31 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krokos/public_html/cart/cart.php on line 114

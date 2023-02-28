@@ -1,9 +1,21 @@
 <?php
+include_once('./../db.php');
 session_start();
 if ($_SESSION['admin'] != 1) {
     header("Location: https://krokos.com.ar/login.php", TRUE, 301);
     die();
 }
+
+if (!$_GET['id_product']) {
+    echo '<h2>Se producido un error</h2> <p>Porfavor indique un id de producto.</p>';
+    exit();
+}
+$id_product = $_GET['id_product'];
+$result = mysqli_query($DB_conn, 'SELECT p.id_product, p.code, p.name, c.name as color, m.name as model , p.price, p.has_discount, p.porcentage_discount, p.img_url, p.date_release
+FROM products p
+INNER JOIN colors c ON c.id_color = p.color
+INNER JOIN models m ON m.id_model = p.model WHERE id_product='.$id_product.';');
+$product = $result->fetch_assoc();
 ?>
 
 <!doctype html>
@@ -101,7 +113,7 @@ if ($_SESSION['admin'] != 1) {
         </button>
         <div class="navbar-nav">
             <div class="nav-item text-nowrap">
-            <a class="nav-link px-3" href="https://krokos.com.ar/controllers/loginController.php?action=logout">Cerrar sesión</a>
+                <a class="nav-link px-3" href="https://krokos.com.ar/controllers/loginController.php?action=logout">Cerrar sesión</a>
             </div>
         </div>
     </header>
@@ -141,7 +153,7 @@ if ($_SESSION['admin'] != 1) {
 
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Nuevo producto</h1>
+                    <h1 class="h2">Editar producto</h1>
 
                 </div>
                 <div id="new-product" style="
@@ -152,56 +164,63 @@ if ($_SESSION['admin'] != 1) {
                     padding: 2rem;
                 ">
                     <!-- formulario para la carga de productos -->
-                    <form method="POST" action="https://krokos.com.ar/controllers/addProductController.php" enctype="multipart/form-data">
+                    <form method="POST" action="https://krokos.com.ar/controllers/editProductController.php?id_product=<?=$product['id_product']?>" enctype="multipart/form-data">
+                        <input type="text" style="display: none;" name="product-image" value="<?= $product['img_url'] ?>">
                         <div class="mb-3">
                             <label class="form-label" for="name">Nombre de producto</label>
-                            <input class="form-control" type="text" name="name" id="name" required />
+                            <input class="form-control" value="<?= $product['name'] ?>" type="text" name="name" id="name" required />
                         </div>
                         <div class="mb-3">
                             <label class="form-label" for="code">Codigo de producto</label>
-                            <input class="form-control" type="text" name="code" id="code" required />
+                            <input class="form-control" value="<?= $product['code'] ?>" type="text" name="code" id="code" required />
+                        </div class="mb-3">
+                        <label class="form-label">Imagen actual del producto</label>
+                        <br />
+                        <img src="<?= $product['img_url'] ?>" width="150" height="150" alt="product-img" />
+                        <div>
+
                         </div>
                         <div class="mb-3">
-                            <label for="product-image" class="form-label">Imagen del producto</label>
+                            <label for="product-image" class="form-label">Modificar Imagen del producto</label>
                             <input class="form-control" type="file" id="formFile" name="product-image" />
                         </div>
                         <div class="mb-3">
                             <label class="form-label" for="color">Color</label>
                             <select class="form-control" name="color" id="color">
-                                <option value="1">Blanco</option>
-                                <option value="2">Negro</option>
-                                <option value="3">Rojo</option>
-                                <option value="4">Azul</option>
-                                <option value="5">Rosa</option>
-                                <option value="6">Naranja</option>
-                                <option value="7">Violeta</option>
-                                <option value="8">Lila</option>
-                                <option value="9">Gris</option>
-                                <option value="10">Verde</option>
-                                <option value="11">Beige</option>
-                                <option value="12">Marron</option>
+                                <option value="1" <?php if ($product['color'] == 'Blanco') echo 'selected' ?>>Blanco</option>
+                                <option value="2" <?php if ($product['color'] == 'Negro') echo 'selected' ?>>Negro</option>
+                                <option value="3" <?php if ($product['color'] == 'Rojo') echo 'selected' ?>>Rojo</option>
+                                <option value="4" <?php if ($product['color'] == 'Azul') echo 'selected' ?>>Azul</option>
+                                <option value="5" <?php if ($product['color'] == 'Rosa') echo 'selected' ?>>Rosa</option>
+                                <option value="6" <?php if ($product['color'] == 'Naranja') echo 'selected' ?>>Naranja</option>
+                                <option value="7" <?php if ($product['color'] == 'Violeta') echo 'selected' ?>>Violeta</option>
+                                <option value="8" <?php if ($product['color'] == 'Lila') echo 'selected' ?>>Lila</option>
+                                <option value="9" <?php if ($product['color'] == 'Gris') echo 'selected' ?>>Gris</option>
+                                <option value="10" <?php if ($product['color'] == 'Verde') echo 'selected' ?>>Verde</option>
+                                <option value="11" <?php if ($product['color'] == 'Beige') echo 'selected' ?>>Beige</option>
+                                <option value="12" <?php if ($product['color'] == 'Marron') echo 'selected' ?>>Marron</option>
                             </select>
                         </div>
                         <div class="mb-3">
                             <label class="form-label" for="tipo-gorro">Tipo de gorro</label>
                             <select class="form-control" name="tipo-gorro" id="tipo-gorro">
-                                <option value="1">Gorra curva</option>
-                                <option value="2">Pilusos</option>
-                                <option value="3">Pasa montaña</option>
-                                <option value="4">Gorro de lana</option>
+                                <option value="1" <?php if ($product['model'] == 'Gorra curva') echo 'selected' ?>>Gorra curva</option>
+                                <option value="2" <?php if ($product['model'] == 'Pilusos') echo 'selected' ?>>Pilusos</option>
+                                <option value="3" <?php if ($product['model'] == 'Pasa montaña') echo 'selected' ?>>Pasa montaña</option>
+                                <option value="4" <?php if ($product['model'] == 'Gorro de lana') echo 'selected' ?>>Gorro de lana</option>
                             </select>
                         </div>
                         <div class="mb-3">
                             <label class="form-label" for="price">Precio</label>
-                            <input class="form-control" type="number" name="price" id="price" required />
+                            <input class="form-control" value="<?= $product['price'] ?>"type="number" name="price" id="price" required />
                         </div>
                         <div class="mb-3">
-                            <input class="form-checkbox" type="checkbox" name="discount" id="discount" />
+                            <input class="form-checkbox" <?php if($product['has_discount'] == 1) echo 'checked';?> type="checkbox" name="discount" id="discount" />
                             <label class="form-label" for="discount">Descuento</label>
                         </div>
                         <div class="mb-3">
                             <label class="d-block form-label" for="discount-percentage">Porcentaje de descuento</label>
-                            <input class="form-control" type="number" name="discount-percentage" id="discount-percentage" disabled max="100" min="0" />
+                            <input class="form-control" type="number" <?php if($product['porcentage_discount'] > 0 && $product['has_discount'] == 1){ echo 'value="'.$product['porcentage_discount'].'"';}else{echo 'disabled';}?> name="discount-percentage" id="discount-percentage" max="100" min="0" />
                         </div>
 
                         <button class="btn btn-success" type="submit">Listo</button>

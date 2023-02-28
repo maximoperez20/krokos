@@ -125,7 +125,7 @@ $result = mysqli_query($DB_conn, 'SELECT * FROM orders');
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://krokos.com.ar/admin/newproduct.php">
+                            <a class="nav-link" href="https://krokos.com.ar/admin/products.php">
                                 <span data-feather="shopping-cart" class="align-text-bottom"></span>
                                 Productos
                             </a>
